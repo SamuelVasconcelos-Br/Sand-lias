@@ -9,3 +9,12 @@ Por mais divertido que seja, o litoral ainda assim possui seus perigos, sejam el
 Com nosso catálogo de especíes, o acesso a dados sobre a fauna local facilita o relacionamento entre humanos e animais. Por exemplo, durante climas quentes, as famosas caravelas portuguesas migram para o litoral paulista em busca de águas com temperatura mais elevada. Este dado possui extrema relevância pois a caravela portuguesa é uma espécie letal que ataca o sistema nervoso com uma tóxina. Informações como esta e muitas outras podem salvar vidas se forem expostas no lugar certo, e isso é oque planejamos fazer.
 
 O litoral também possui perigos humanos como sequestro, assasinato e assaltos. Observando estátisticas como a de Peruíbe, onde ocorrem 36,7 assassinatos por cem mil habitantes todos os anos, podemos associar um filtro de perigo para praias da região, afim de alertar turistas sobre aquela região.
+
+<h1>índice</h1>
+Índice de acesso rápido aos links da wiki:
+<ul>
+ <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki">Descrição dos Widgets</a></li>
+ <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki/Descri%C3%A7%C3%A3o-dos-Widgets">Imagens do Protótipo</a></li>
+ <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki/Mapa-de-Navega%C3%A7%C3%A3o">Mapa de Navegação</a></li>
+</ul>
+
