@@ -13,6 +13,7 @@ O litoral também possui perigos humanos como sequestro, assasinato e assaltos. 
 <h1>índice</h1>
 Índice de acesso rápido aos links da wiki:
 <ul>
+  <br>
  <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki">Descrição dos Widgets</a></li>
  <br>
  <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki/Descri%C3%A7%C3%A3o-dos-Widgets">Imagens do Protótipo</a></li>
