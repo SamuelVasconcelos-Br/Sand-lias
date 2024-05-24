@@ -1,5 +1,5 @@
 <h1>Sandálias</h1>
-<h4><b>Integrantes: Michel Castro e Samuel Vasconcelos</b>></h4>
+<h4><b>Integrantes: Michel Castro e Samuel Vasconcelos</b></h4>
 Nosso aplicativo nomeado de <b>Sandálias</b> é uma aplicação projetada para funcionar como um guia turistico para o litoral paulista, sendo possível ler informações sobre diversas praias, conferir imagens, pontos de interesse e refinar a sua busca pelo ambiente perfeito utilizando um sistema de filtros que informam se o local é seguro, se o mar é calmo e até o movimento em média da área. Nosso app também possui um catálogo de especíes detalhando a fauna que pode ser encontrada em ambientes litorâneos e seus cuidados gerais para evitar que ambos os animais e humanos machuquem uns aos outros.
  
 <h2>Relevância do tema</h2>
