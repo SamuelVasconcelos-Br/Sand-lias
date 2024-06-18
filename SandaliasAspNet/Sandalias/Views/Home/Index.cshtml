@@ -1,0 +1,135 @@
+﻿@{
+    ViewData["Title"] = "Sandálias";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandálias</title>
+    <link rel="stylesheet" href="~/css/Index.css" />
+    <link rel="shortcut icon" href="~/images/Icons/Sand.png" />
+</head>
+<body>
+    <header>
+        <a asp-controller="Home" asp-action="Index"><img class="Logo" src="~/images/Logo.png"></a>
+        <input class="SearchBar" type="text" placeholder="Busque por informações aqui">
+        <ul>
+            <li><a href="">Trilhas</a></li>
+            <li><a href="">Praias</a></li>
+            <li><a href="">Espécies</a></li>
+        </ul>
+    </header>
+    <div class="Praias">
+        <h1 class="Titulo">Praias Recomendadas</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="~/images/Praias/Maresias.jpg" alt="Praia de Maresias">
+                <div class="card-content">
+                    <h2>Praia de Maresias</h2>
+                    <p><b>São Sebastião</b></p>
+                    <br>
+                    <p>Maresias é a praia responsável por grande parte do turismo que chega ao Litoral Norte de São Paulo. Famosa pelas ondas e por receber as grandes rodas do surfe mundial, Maresias é muito mais do que apenas uma praia. De tão importante para a região de São Sebastião, há quem chegue por lá e se encante com a sua infraestrutura, que inclui excelentes...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Praias/Enseada.jpeg" alt="Praia da Enseada">
+                <div class="card-content">
+                    <h2>Praia da Enseada</h2>
+                    <p><b>Guarujá</b></p>
+                    <br>
+                    <p>A Praia da Enseada, localizada no Guarujá, é uma das mais renomadas do Litoral Sul de São Paulo. Conhecida por suas extensas faixas de areia branca e águas calmas e rasas, é ideal para famílias e atividades aquáticas como o stand-up paddle e o surf. Além das belezas naturais, a praia é repleta de quiosques, bares e restaurantes, oferecendo uma...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Praias/Couves.jpg" alt="Praia das Couves">
+                <div class="card-content">
+                    <h2>Praia das Couves</h2>
+                    <p><b>Ubatuba</b></p>
+                    <br>
+                    <p>A Praia das Couves, em Ubatuba, é um refúgio paradisíaco para os amantes da natureza. Com suas águas cristalinas e fauna marinha rica, é um ponto de prática de snorkeling e mergulho, sendo ideal para toda a família. Apesar do difícil acesso por barco ou trilha, o que garante que a mesma é mais preservada e menos frequentada...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Praias/Juliao.jpeg" alt="Praia do Julião">
+                <div class="card-content">
+                    <h2>Praia do Julião</h2>
+                    <p><b>Ilhabela</b></p>
+                    <br>
+                    <p>A Praia do Julião, situada em Ilhabela, destaca-se pela tranquilidade e beleza cênica. Com águas calmas e quentes, é um destino excelente para famílias e para a prática de esportes aquáticos como o stand-up paddle. A areia branca e fina, em contraste com a vegetação densa ao redor, oferece um ambiente confortável para descanso...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Praias">
+        <h1 class="Titulo">Trilhas Recomendadas</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="~/images/Trilhas/Fortaleza.jpg" alt="Trilha da Fortaleza da Barra Grande">
+                <div class="card-content">
+                    <h2>Trilha da Fortaleza</h2>
+                    <p><b>Guarujá</b></p>
+                    <br>
+                    <p>A Trilha da Fortaleza da Barra Grande começa no bairro Santa Cruz dos Navegantes e tem cerca de 2 km de extensão. O caminho, de dificuldade baixa, passa por áreas de mata atlântica e oferece vistas espetaculares da Baía de Santos. Ao final, a trilha leva à histórica Fortaleza da Barra Grande, construída no século...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Trilhas/Bananas.jpg" alt="Trilha do Saco das Bananas">
+                <div class="card-content">
+                    <h2>Trilha do Saco das Bananas</h2>
+                    <p><b>São Sebastião</b></p>
+                    <br>
+                    <p>A Trilha do Saco das Bananas, localizada na costa sul de São Sebastião, é um percurso de cerca de 7 km (ida e volta) que começa na Praia de Boiçucanga. De dificuldade moderada, a trilha atravessa a densa mata atlântica e passa por várias cachoeiras, oferecendo a oportunidade de refrescar-se ao longo do caminho. O destino final é a isolada...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Trilhas/Sete.jpg" alt="Trilha das 7 Praias">
+                <div class="card-content">
+                    <h2>Trilha das 7 Praias</h2>
+                    <p><b>Ubatuba</b></p>
+                    <br>
+                    <p>A Trilha das 7 Praias, também chamada de Trilha das 10 Praias, é uma das mais famosas de Ubatuba. Com aproximadamente 10 km de extensão, a trilha começa na Praia da Lagoinha e segue até a Praia da Fortaleza. De dificuldade moderada, o percurso passa por diversas praias isoladas e pouco frequentadas...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Trilhas/Bonete.jpg" alt="Trilha do Bonete">
+                <div class="card-content">
+                    <h2>Trilha do Bonete</h2>
+                    <p><b>Ilhabela</b></p>
+                    <br>
+                    <p>A Trilha do Bonete, com cerca de 12 km de extensão, é uma das mais conhecidas de Ilhabela. Partindo de Borrifos, a trilha, de dificuldade moderada a alta, passa por várias cachoeiras, incluindo a Cachoeira da Laje e a Cachoeira do Areado, e atravessa trechos densos de mata atlântica. A caminhada...</p>
+                    <form asp-controller="Home" asp-action="DescricaoPraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright © 2024 - Todos os Direitos Reservados
+    </footer>
+
+</body>
+</html>
