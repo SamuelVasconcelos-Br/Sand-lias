@@ -102,6 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.pop(context);
               },
             ),
+             ElevatedButton(onPressed:() {Navigator.push(context, MaterialPageRoute (builder:(context) => const PraiasPag()),);}, child: null,)
           ],
         ),
       ),
