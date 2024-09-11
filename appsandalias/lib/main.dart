@@ -1,4 +1,6 @@
 import 'package:appsandalias/animals.dart';
+import 'package:appsandalias/praias.dart';
+import 'package:appsandalias/trilhas.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -83,26 +85,18 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               leading: const Icon(Icons.home),
-              title: const Text('Home'),
+              title: const Text('Praia'),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const PraiasPag()), );
               },
             ),
             ListTile(
               leading: const Icon(Icons.map),
               title: const Text('Trilha'),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const TrilhasPag()), );
               },
             ),
-            ListTile(
-              leading: const Icon(Icons.pets),
-              title: const Text('Espécies'),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
-             ElevatedButton(onPressed:() {Navigator.push(context, MaterialPageRoute (builder:(context) => const PraiasPag()),);}, child: null,)
           ],
         ),
       ),
