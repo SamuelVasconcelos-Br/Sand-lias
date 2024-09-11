@@ -1,3 +1,4 @@
+import 'package:appsandalias/main.dart';
 import 'package:flutter/material.dart';
 
 @override
@@ -28,7 +29,7 @@ class _MyPraiaPageState extends State<PraiasPag> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 255, 255, 255),
-        title: const Text('Praias'),
+        
         leading: Builder(
           builder: (BuildContext context) {
             return IconButton(
@@ -60,13 +61,6 @@ class _MyPraiaPageState extends State<PraiasPag> {
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.home),
-              title: const Text('Home'),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
-            ListTile(
               leading: const Icon(Icons.map),
               title: const Text('Trilha'),
               onTap: () {
@@ -77,7 +71,7 @@ class _MyPraiaPageState extends State<PraiasPag> {
               leading: const Icon(Icons.pets),
               title: const Text('Espécies'),
               onTap: () {
-                Navigator.pop(context);
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => const MyHomePage()), );
               },
             ),
           ],
@@ -87,7 +81,7 @@ class _MyPraiaPageState extends State<PraiasPag> {
       body: GridView.count(
         crossAxisCount: 1,
         children: const <Widget>[
-          PraiaCard(imagePath: 'assets/images/PraiaMaresias.jpeg', praiaName: 'Praia de Maresias',  descricao: '',),
+          PraiaCard(imagePath: 'assets/images/PraiaMaresias.jpg', praiaName: 'Praia de Maresias',  descricao: '',),
           PraiaCard(imagePath: 'assets/images/PraiaEnseada.jpeg', praiaName: 'Praia da Enseada', descricao: '',),
           PraiaCard(imagePath: 'assets/images/PraiaCouves.jpeg', praiaName: 'Praia das Couves', descricao: '',),
           PraiaCard(imagePath: 'assets/images/PraiaJuliao.jpeg', praiaName: 'Praia do Julião', descricao: '',),
