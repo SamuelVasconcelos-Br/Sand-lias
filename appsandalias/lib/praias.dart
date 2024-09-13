@@ -1,4 +1,5 @@
 import 'package:appsandalias/main.dart';
+import 'package:appsandalias/trilhas.dart';
 import 'package:flutter/material.dart';
 
 @override
@@ -64,7 +65,7 @@ class _MyPraiaPageState extends State<PraiasPag> {
               leading: const Icon(Icons.map),
               title: const Text('Trilha'),
               onTap: () {
-                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const TrilhasPag()), );
               },
             ),
             ListTile(
