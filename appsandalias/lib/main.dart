@@ -1,3 +1,4 @@
+import 'package:appsandalias/AnimalCard.dart';
 import 'package:appsandalias/animals.dart';
 import 'package:appsandalias/praias.dart';
 import 'package:appsandalias/trilhas.dart';
@@ -32,6 +33,20 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
+
+List <AnimalCard> animais= [
+   const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota'),
+          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 1'),
+          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 1'),
+          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 2'),
+          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 2'),
+          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 2'),
+          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 3'),
+          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 3'),
+          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 3')
+
+
+];
 
   void _onItemTapped(int index) {
     setState(() {
@@ -100,42 +115,16 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+     
+     
       body: GridView.count(
         crossAxisCount: 3,
-        children: <Widget>[
-          AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota', onTap: () => _navigateToAnimalPage(context, 'Gaivota')),
-          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 1'),
-          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 1'),
-          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 2'),
-          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 2'),
-          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 2'),
-          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 3'),
-          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 3'),
-          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 3')
-        ],
-      ),
-      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
-      
-    );
-  }
-}
+        children: [
 
-class AnimalCard extends StatelessWidget {
-  final String imagePath;
-  final String animalName;
-  final VoidCallback? onTap;
-
-  const AnimalCard({
-    super.key,
-    required this.imagePath,
-    required this.animalName,
-    this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
+            ListView.builder( itemBuilder: (context, index) =>
+            StatefulBuilder(builder: (context, index) => 
+          GestureDetector(
+      onTap: () => _navigateToAnimalPage(context, 'Gaivota'),
       child: Card(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15.0),
@@ -145,7 +134,7 @@ class AnimalCard extends StatelessWidget {
           children: <Widget>[
             Positioned.fill(
               child: Image.asset(
-                imagePath,
+                AnimalCard.imagePath,
                 fit: BoxFit.cover,
               ),
             ),
@@ -157,7 +146,7 @@ class AnimalCard extends StatelessWidget {
                 color: Colors.black.withOpacity(0.5),
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  animalName,
+                  AnimalCard.animalName,
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 16.0,
@@ -168,6 +157,16 @@ class AnimalCard extends StatelessWidget {
           ],
         ),
       ),
+    ) 
+    )
+    )
+        ]
+
+      ),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+      
     );
   }
 }
+
+
