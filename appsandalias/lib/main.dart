@@ -115,26 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
       ),
       backgroundColor: const Color.fromARGB(255, 255, 255, 255),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-            icon: Icon(Icons.map_rounded),
-            label: 'Trilha',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home_rounded),
-            label: 'Home',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.pets_rounded),
-            label: 'Espécies',
-          ),
-        ],
-        currentIndex: _selectedIndex,
-        selectedItemColor: Colors.black,
-        onTap: _onItemTapped,
-        backgroundColor: const Color.fromARGB(255, 255, 215, 71),
-      ),
+      
     );
   }
 }
