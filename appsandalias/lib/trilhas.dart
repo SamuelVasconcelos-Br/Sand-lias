@@ -1,6 +1,18 @@
 import 'package:appsandalias/TrilhaCard.dart';
 import 'package:appsandalias/main.dart';
+import 'package:appsandalias/praias.dart';
 import 'package:flutter/material.dart';
+
+@override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Trilhas',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+       
+    );        
+  }
 
 class TrilhasPag extends StatelessWidget {
 const TrilhasPag({super.key}); 
@@ -42,10 +54,10 @@ const TrilhasPag({super.key});
               ),
             ),
             ListTile(
-              leading: const Icon(Icons.map),
-              title: const Text('Trilha'),
+              leading: const Icon(Icons.beach_access_outlined),
+              title: const Text('Praias'),
               onTap: () {
-                Navigator.pop(context);
+                 Navigator.push(context, MaterialPageRoute(builder: (context) => const PraiasPag()), );
               },
             ),
             ListTile(
@@ -64,11 +76,17 @@ const TrilhasPag({super.key});
         children: const <Widget>[
           TrilhaCard(imagePath: 'assets/images/PraiaMaresias.jpg', trilhaName: 'Praia de Maresias',  descricao: '',),
           TrilhaCard(imagePath: 'assets/images/PraiaEnseada.jpeg', trilhaName: 'Praia da Enseada', descricao: '',),
-          TrilhaCard(imagePath: 'assets/images/PraiaCouves.jpeg', trilhaName: 'Praia das Couves', descricao: '',),
-          TrilhaCard(imagePath: 'assets/images/PraiaJuliao.jpeg', trilhaName: 'Praia do Julião', descricao: '',),
+          TrilhaCard(imagePath: 'assets/images/PraiaCouves.jpg', trilhaName: 'Praia das Couves', descricao: '',),
+          TrilhaCard(imagePath: 'assets/images/PraiaJuliao.jpg', trilhaName: 'Praia do Julião', descricao: '',),
         ],
       ),
     );
+
+
+}
+}
+
+
 
 
 }
