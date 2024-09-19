@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Sandálias',
+      title: 'Espécies',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -32,27 +32,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _selectedIndex = 0;
+  
 
-List <AnimalCard> animais= [
-   const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota'),
-          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 1'),
-          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 1'),
-          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 2'),
-          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 2'),
-          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 2'),
-          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 3'),
-          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 3'),
-          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 3')
-
-
-];
-
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
 
   void _navigateToAnimalPage(BuildContext context, String animalName) {
     if (animalName == 'Gaivota') {
@@ -67,7 +48,7 @@ List <AnimalCard> animais= [
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 239, 239, 23),
         title: const Text('Sandálias'),
         leading: Builder(
           builder: (BuildContext context) {
@@ -98,13 +79,7 @@ List <AnimalCard> animais= [
                 ),
               ),
             ),
-            ListTile(
-              leading: const Icon(Icons.home),
-              title: const Text('Praia'),
-              onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => const PraiasPag()), );
-              },
-            ),
+            
             ListTile(
               leading: const Icon(Icons.map),
               title: const Text('Trilha'),
@@ -112,61 +87,35 @@ List <AnimalCard> animais= [
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const TrilhasPag()), );
               },
             ),
+            ListTile(
+              leading: const Icon(Icons.beach_access_outlined),
+              title: const Text('Praias'),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const PraiasPag()), );
+              },
+            ),
+             
           ],
         ),
       ),
-     
-     
       body: GridView.count(
         crossAxisCount: 3,
-        children: [
-
-            ListView.builder( itemBuilder: (context, index) =>
-            StatefulBuilder(builder: (context, index) => 
-          GestureDetector(
-      onTap: () => _navigateToAnimalPage(context, 'Gaivota'),
-      child: Card(
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15.0),
-        ),
-        clipBehavior: Clip.antiAlias,
-        child: Stack(
-          children: <Widget>[
-            Positioned.fill(
-              child: Image.asset(
-                AnimalCard.imagePath,
-                fit: BoxFit.cover,
-              ),
-            ),
-            Positioned(
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: Container(
-                color: Colors.black.withOpacity(0.5),
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  AnimalCard.animalName,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 16.0,
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
+        children: <Widget>[
+          AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota', onTap: () => _navigateToAnimalPage(context, 'Gaivota')),
+          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 1'),
+          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 1'),
+          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 2'),
+          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 2'),
+          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 2'),
+          const AnimalCard(imagePath: 'assets/images/animal1.jpeg', animalName: 'Gaivota 3'),
+          const AnimalCard(imagePath: 'assets/images/animal2.png', animalName: 'Cavalo-Marinho 3'),
+          const AnimalCard(imagePath: 'assets/images/animal3.jpeg', animalName: 'Tartaruga 3')
+        ],
       ),
-    ) 
-    )
-    )
-        ]
-
-      ),
-      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
-      
+      backgroundColor: const Color.fromARGB(255, 241, 241, 236),
     );
   }
 }
+
 
 
