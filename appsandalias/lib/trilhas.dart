@@ -1,21 +1,47 @@
 import 'package:appsandalias/TrilhaCard.dart';
 import 'package:appsandalias/main.dart';
 import 'package:appsandalias/praias.dart';
+import 'package:appsandalias/trilhasespec.dart';
 import 'package:flutter/material.dart';
 
-@override
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Trilhas',
+      title: 'Espécies',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-       
-    );        
+      home: const MyHomePage(),
+    );
   }
+}
 
-class TrilhasPag extends StatelessWidget {
+class TrilhasPag extends StatefulWidget {
 const TrilhasPag({super.key}); 
+
+
+@override
+  // ignore: library_private_types_in_public_api
+  _MyTrilhaPageState createState() => _MyTrilhaPageState();
+ 
+
+}
+
+class _MyTrilhaPageState extends State<TrilhasPag> {
+
+
+
+void _navigateToTrilhaPage(BuildContext context, String trilhaName) {
+    if (trilhaName == 'Trilha dos 7 praias') {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const TrilhasetePage()),
+      );
+    }
+  }
 
 @override
   Widget build(BuildContext context) {
@@ -73,23 +99,16 @@ const TrilhasPag({super.key});
 
        body: GridView.count(
         crossAxisCount: 1,
-        children: const <Widget>[
-          TrilhaCard(imagePath: 'assets/images/PraiaMaresias.jpg', trilhaName: 'Praia de Maresias',  descricao: '',),
-          TrilhaCard(imagePath: 'assets/images/PraiaEnseada.jpeg', trilhaName: 'Praia da Enseada', descricao: '',),
-          TrilhaCard(imagePath: 'assets/images/PraiaCouves.jpg', trilhaName: 'Praia das Couves', descricao: '',),
-          TrilhaCard(imagePath: 'assets/images/PraiaJuliao.jpg', trilhaName: 'Praia do Julião', descricao: '',),
+        children:  <Widget>[
+          TrilhaCard(imagePath: 'assets/images/trilha7.jpg', trilhaName: 'Trilha dos 7 praias',  descricao: '', onTap: () => _navigateToTrilhaPage(context, 'Trilha dos 7 praias')),
+          const TrilhaCard(imagePath: 'assets/images/trilhabananas.jpg', trilhaName: 'Praia da Enseada', descricao: '',),
+          const TrilhaCard(imagePath: 'assets/images/trilhafortaleza.jpg', trilhaName: 'Praia das Couves', descricao: '',),
+          const TrilhaCard(imagePath: 'assets/images/trilhabonete.jpg', trilhaName: 'Praia do Julião', descricao: '',),
         ],
       ),
     );
 
 
 }
-}
-
-
-
 
 }
-}
-
-
