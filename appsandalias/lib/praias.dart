@@ -1,21 +1,28 @@
 import 'package:appsandalias/PraiaCard.dart';
 import 'package:appsandalias/main.dart';
 import 'package:appsandalias/trilhas.dart';
+import 'package:appsandalias/trilhasespec.dart';
 import 'package:flutter/material.dart';
 
-@override
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Praias',
+      title: 'Espécies',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-       
-    );        
+      home: const MyHomePage(),
+    );
   }
+}
  
  class PraiasPag extends StatefulWidget {
   const PraiasPag({super.key}); 
+  
+  
 
   @override
   // ignore: library_private_types_in_public_api
@@ -25,6 +32,15 @@ import 'package:flutter/material.dart';
 
   
 class _MyPraiaPageState extends State<PraiasPag> {
+
+void _navigateToPraiaPage(BuildContext context, String praiaName) {
+    if (praiaName == 'Praia de Maresias') {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const TrilhasetePage()),
+      );
+    }
+  }
 
 @override
   Widget build(BuildContext context) {
@@ -82,15 +98,13 @@ class _MyPraiaPageState extends State<PraiasPag> {
 
       body: GridView.count(
         crossAxisCount: 1,
-        children: const <Widget>[
-          PraiaCard(imagePath: 'assets/images/PraiaMaresias.jpg', praiaName: 'Praia de Maresias',  descricao: '',),
-          PraiaCard(imagePath: 'assets/images/PraiaEnseada.jpeg', praiaName: 'Praia da Enseada', descricao: '',),
-          PraiaCard(imagePath: 'assets/images/PraiaCouves.jpg', praiaName: 'Praia das Couves', descricao: '',),
-          PraiaCard(imagePath: 'assets/images/PraiaJuliao.jpg', praiaName: 'Praia do Julião', descricao: '',),
+        children:  <Widget>[
+          PraiaCard(imagePath: 'assets/images/PraiaMaresias.jpg', praiaName: 'Praia de Maresias',  descricao: '', onTap: () => _navigateToPraiaPage(context, 'Praia de Maresias')),
+          const PraiaCard(imagePath: 'assets/images/PraiaEnseada.jpeg', praiaName: 'Praia da Enseada', descricao: '',),
+          const PraiaCard(imagePath: 'assets/images/PraiaCouves.jpg', praiaName: 'Praia das Couves', descricao: '',),
+          const PraiaCard(imagePath: 'assets/images/PraiaJuliao.jpg', praiaName: 'Praia do Julião', descricao: '',),
         ],
       ),
     );
 }
 }
-
-
