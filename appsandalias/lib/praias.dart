@@ -1,8 +1,10 @@
 import 'package:appsandalias/PraiaCard.dart';
 import 'package:appsandalias/main.dart';
+import 'package:appsandalias/praiasespec.dart';
+import 'package:appsandalias/praiasespec2.dart';
 import 'package:appsandalias/trilhas.dart';
-import 'package:appsandalias/trilhasespec.dart';
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -37,7 +39,16 @@ void _navigateToPraiaPage(BuildContext context, String praiaName) {
     if (praiaName == 'Praia de Maresias') {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => const TrilhasetePage()),
+        MaterialPageRoute(builder: (context) => const MaresiasPage()),
+      );
+    }
+  }
+
+  void _navigateToPraia2Page(BuildContext context, String praiaName) {
+    if (praiaName == 'Praia da Enseada') {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const EnseadaPage()),
       );
     }
   }
@@ -96,11 +107,12 @@ void _navigateToPraiaPage(BuildContext context, String praiaName) {
         ),
       ),
 
+      
       body: GridView.count(
         crossAxisCount: 1,
         children:  <Widget>[
           PraiaCard(imagePath: 'assets/images/PraiaMaresias.jpg', praiaName: 'Praia de Maresias',  descricao: '', onTap: () => _navigateToPraiaPage(context, 'Praia de Maresias')),
-          const PraiaCard(imagePath: 'assets/images/PraiaEnseada.jpeg', praiaName: 'Praia da Enseada', descricao: '',),
+          PraiaCard(imagePath: 'assets/images/PraiaEnseada.jpeg', praiaName: 'Praia da Enseada', descricao: '', onTap: () => _navigateToPraia2Page(context, 'Praia da Enseada')),
           const PraiaCard(imagePath: 'assets/images/PraiaCouves.jpg', praiaName: 'Praia das Couves', descricao: '',),
           const PraiaCard(imagePath: 'assets/images/PraiaJuliao.jpg', praiaName: 'Praia do Julião', descricao: '',),
         ],
@@ -108,3 +120,5 @@ void _navigateToPraiaPage(BuildContext context, String praiaName) {
     );
 }
 }
+
+
