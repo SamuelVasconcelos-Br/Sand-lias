@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Sandálias";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandálias</title>
+    <link rel="stylesheet" href="~/css/Index.css" />
+    <link rel="shortcut icon" href="~/images/Icons/Sand.png" />
+</head>
+<body>
+    <header>
+        <a><img class="Logo" src="~/images/Logo.png"></a>
+        <input class="SearchBar" type="text" placeholder="Busque por informações aqui">
+        <ul>
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="Praias">Praias</a></li>
+            <li><a asp-controller="Home" asp-action="Trilhas">Trilhas</a></li>
+            <li><a asp-controller="Home" asp-action="Animais">Espécies</a></li>
+        </ul>
+    </header>
+    <div class="Praias">
+        <h1 class="Titulo">Principais Trilhas</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="~/images/Trilhas/Fortaleza.jpg" alt="Trilha da Fortaleza da Barra Grande">
+                <div class="card-content">
+                    <h2>Trilha da Fortaleza</h2>
+                    <p><b>Guarujá</b></p>
+                    <br>
+                    <p>A Trilha da Fortaleza da Barra Grande começa no bairro Santa Cruz dos Navegantes e tem cerca de 2 km de extensão. O caminho, de dificuldade baixa, passa por áreas de mata atlântica e oferece vistas espetaculares da Baía de Santos. Ao final, a trilha leva à histórica Fortaleza da Barra Grande, construída no século...</p>
+                    <form asp-controller="Trilhas" asp-action="Fortaleza">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Trilhas/Bananas.jpg" alt="Trilha do Saco das Bananas">
+                <div class="card-content">
+                    <h2>Trilha do Saco das Bananas</h2>
+                    <p><b>São Sebastião</b></p>
+                    <br>
+                    <p>A Trilha do Saco das Bananas, localizada na costa sul de São Sebastião, é um percurso de cerca de 7 km (ida e volta) que começa na Praia de Boiçucanga. De dificuldade moderada, a trilha atravessa a densa mata atlântica e passa por várias cachoeiras, oferecendo a oportunidade de refrescar-se ao longo do caminho. O destino final é a isolada...</p>
+                    <form asp-controller="Trilhas" asp-action="Bananas">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Trilhas/Sete.jpg" alt="Trilha das 7 Praias">
+                <div class="card-content">
+                    <h2>Trilha das 7 Praias</h2>
+                    <p><b>Ubatuba</b></p>
+                    <br>
+                    <p>A Trilha das 7 Praias, também chamada de Trilha das 10 Praias, é uma das mais famosas de Ubatuba. Com aproximadamente 10 km de extensão, a trilha começa na Praia da Lagoinha e segue até a Praia da Fortaleza. De dificuldade moderada, o percurso passa por diversas praias isoladas e pouco frequentadas...</p>
+                    <form asp-controller="Trilhas" asp-action="SetePraias">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Trilhas/Bonete.jpg" alt="Trilha do Bonete">
+                <div class="card-content">
+                    <h2>Trilha do Bonete</h2>
+                    <p><b>Ilhabela</b></p>
+                    <br>
+                    <p>A Trilha do Bonete, com cerca de 12 km de extensão, é uma das mais conhecidas de Ilhabela. Partindo de Borrifos, a trilha, de dificuldade moderada a alta, passa por várias cachoeiras, incluindo a Cachoeira da Laje e a Cachoeira do Areado, e atravessa trechos densos de mata atlântica. A caminhada...</p>
+                    <form asp-controller="Trilhas" asp-action="Bonete">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright © 2024 - Todos os Direitos Reservados
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Sandálias";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandálias</title>
+    <link rel="stylesheet" href="~/css/Index.css" />
+    <link rel="shortcut icon" href="~/images/Icons/Sand.png" />
+</head>
+<body>
+    <header>
+        <a><img class="Logo" src="~/images/Logo.png"></a>
+        <input class="SearchBar" type="text" placeholder="Busque por informações aqui">
+        <ul>
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="Praias">Praias</a></li>
+            <li><a asp-controller="Home" asp-action="Trilhas">Trilhas</a></li>
+            <li><a asp-controller="Home" asp-action="Animais">Espécies</a></li>
+        </ul>
+    </header>
+    <div class="Praias">
+        <h1 class="Titulo">Espécies mais comuns</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="~/images/Animais/Gaivota.jpg" alt="Gaivota">
+                <div class="card-content">
+                    <h2>Gaivota</h2>
+                    <p><b>Larinae</b></p>
+                    <br>
+                    <p>Gaivota é o nome dado a diferentes espécies de aves marinhas que fazem parte da família Laridae. O termo ave marinha é utilizado para se referir às aves que conseguem seu alimento desde a linha de baixa-mar até o mar aberto. O ambiente marinho é fundamental para sua sobrevivência...</p>
+                    <form asp-controller="Animais" asp-action="Gaivota">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Animais/Tartaruga.jpg" alt="Trilha do Saco das Bananas">
+                <div class="card-content">
+                    <h2>Tartaruga Marinha</h2>
+                    <p><b>Chelonioidea</b></p>
+                    <br>
+                    <p>A Trilha do Saco das Bananas, localizada na costa sul de São Sebastião, é um percurso de cerca de 7 km (ida e volta) que começa na Praia de Boiçucanga. De dificuldade moderada, a trilha atravessa a densa mata atlântica e passa por várias cachoeiras, oferecendo a oportunidade de refrescar-se ao longo do caminho. O destino final é a isolada...</p>
+                    <form asp-controller="Animais" asp-action="Tartaruga">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Animais/CavaloMarinho3.jpg" alt="Trilha das 7 Praias">
+                <div class="card-content">
+                    <h2>Cavalo Marinho</h2>
+                    <p><b>Hippocampus</b></p>
+                    <br>
+                    <p>Cavalo-marinho é um peixe ósseo encontrado em águas costeiras tropicais e subtropicais. Existem cerca de 40 espécies de cavalos-marinhos, sendo que três podem ser encontradas no Brasil. Esses peixes possuem corpo coberto por placas ósseas e têm uma cabeça que lembra a de um cavalo. Seus olhos são capazes de se mover em diferentes...</p>
+                    <form asp-controller="Animais" asp-action="Cavalo">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="~/images/Animais/CaravelaPortuguesa.jpg" alt="Trilha do Bonete">
+                <div class="card-content">
+                    <h2>Caravela Portuguesa</h2>
+                    <p><b>Physalia physalis</b></p>
+                    <br>
+                    <p>Esta espécie tem este nome devido à semelhança com as caravelas portuguesas da época dos descobrimentos. O veneno da caravela-portuguesa é identico ao da aranha Viúva-negra, causando dores muito fortes e queimaduras, que podem ser de terceiro grau, provocando cicatrizes, que poderão ser permanentes...</p>
+                    <form asp-controller="Animais" asp-action="Caravela">
+                        <button type="submit" class="mais-info">Mais Informações</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright © 2024 - Todos os Direitos Reservados
+    </footer>
+
+</body>
+</html>

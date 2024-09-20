@@ -1,0 +1,58 @@
+﻿@model Sandalias.Models.Animais
+
+@{
+    ViewData["Title"] = "Sandálias";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandálias</title>
+    <link rel="stylesheet" href="~/css/Animal.css" />
+</head>
+<body>
+    <header>
+        <a><img class="Logo" src="~/images/Logo.png"></a>
+        <input class="SearchBar" type="text" placeholder="Busque por informações aqui">
+        <ul>
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="Praias">Praias</a></li>
+            <li><a asp-controller="Home" asp-action="Trilhas">Trilhas</a></li>
+            <li><a asp-controller="Home" asp-action="Animais">Espécies</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <h1 class="Titulo"> @Model.Nome - @Model.NomeCientifico </h1>
+        <div class="description">
+            <p>
+                @Model.Descricao
+            </p>
+            <div class="slideshow-container">
+                <div class="slideshow">
+                    @foreach (var foto in Model.fotosAnimais)
+                    {
+                        <img src="@Url.Content(@foto.caminhoImagem)" alt="Vista da Praia de Maresias">
+                    }
+                </div>
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+        </div>
+        
+        <div class="animal">
+            <h2 class="subtitulo"><b>Cuidados</b></h2>
+            <p class="animais">
+                @Model.Cuidados
+            </p>
+        </div>
+    </div>
+    <footer>
+        Copyright © 2024 - Todos os Direitos Reservados
+    </footer>
+    <script src="~/js/Descricao.js"></script>
+</body>
+</html>
+

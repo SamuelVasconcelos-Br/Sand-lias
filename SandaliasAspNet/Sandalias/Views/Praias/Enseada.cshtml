@@ -1,0 +1,76 @@
+﻿@model Sandalias.Models.Praias
+
+@{
+    ViewData["Title"] = "Sandálias";
+    Layout = null;
+    var mapa = Model.CaminhoMapa;
+}
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandálias</title>
+    <link rel="stylesheet" href="~/css/Descricao.css" />
+</head>
+<body>
+    <header>
+        <a><img class="Logo" src="~/images/Logo.png"></a>
+        <input class="SearchBar" type="text" placeholder="Busque por informações aqui">
+        <ul>
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a asp-controller="Home" asp-action="Praias">Praias</a></li>
+            <li><a asp-controller="Home" asp-action="Trilhas">Trilhas</a></li>
+            <li><a asp-controller="Home" asp-action="Animais">Espécies</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <h1 class="Titulo"> @Model.Nome <span class="stars">★★★</span></h1>
+        <div class="description">
+            <p>
+                @Model.Descricao
+            </p>
+            <div class="slideshow-container">
+                <div class="slideshow">
+                    @foreach (var foto in Model.fotosPraias)
+                    {
+                        <img src="@Url.Content(@foto.caminhoImagem)" alt="Vista da Praia de Maresias">
+                    }
+                </div>
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+            <div class="nav-container">
+                <div class="nav-arrows">
+                    <div class="arrow up-arrow"><img src="~/images/Icons/SetaCima.png" alt="Seta pra cima" /></div>
+                    <div class="arrow down-arrow"><img src="~/images/Icons/SetaBaixo.png" alt="Seta pra Baixo" /></div>
+                </div>
+                <div class="dots-container">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+        <h2 class="subtitulo">Mapa da Praia - Clique para ampliar</h2>
+        <div class="mapa">
+            <img src="@Url.Content(mapa)" alt="Mapa da Praia de Maresias">
+        </div>
+        <div class="animal">
+            <h2 class="subtitulo">Animais Encontrados</h2>
+            <p class="animais">
+                A Praia de Maresias, localizada em São Sebastião, abriga uma rica diversidade de espécies de aves e peixes. Entre as aves mais comuns encontradas na região estão a gaivota, o atobá e o trinta-réis. Essas aves são frequentemente vistas sobrevoando a praia, caçando peixes e interagindo com o ambiente costeiro.
+
+                Em relação aos peixes, a praia é habitada por espécies como o robalo, o baiacu e o parati. Esses peixes são encontrados nas águas costeiras de Maresias, contribuindo para a biodiversidade marinha da região. A presença dessas espécies torna a praia um ponto de interesse tanto para observadores da vida selvagem quanto para pescadores esportivos.
+            </p>
+        </div>
+    </div>
+    <footer>
+        Copyright © 2024 - Todos os Direitos Reservados
+    </footer>
+    <script src="~/js/Descricao.js"></script>
+</body>
+</html>
+

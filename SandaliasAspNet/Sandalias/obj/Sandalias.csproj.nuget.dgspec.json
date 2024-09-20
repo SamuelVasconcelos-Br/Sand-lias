@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samue\\OneDrive\\Área de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Sandalias.csproj": {}
+    "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Sandalias.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samue\\OneDrive\\Área de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Sandalias.csproj": {
+    "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Sandalias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samue\\OneDrive\\Área de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Sandalias.csproj",
+        "projectUniqueName": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Sandalias.csproj",
         "projectName": "Sandalias",
-        "projectPath": "C:\\Users\\samue\\OneDrive\\Área de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Sandalias.csproj",
+        "projectPath": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Sandalias.csproj",
         "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samue\\OneDrive\\Área de Trabalho\\Sandalias\\Sandalias\\Sandalias\\obj\\",
+        "outputPath": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

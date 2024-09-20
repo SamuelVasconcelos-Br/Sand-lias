@@ -1,51 +1,115 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Sandalias
 build_property.RootNamespace = Sandalias
-build_property.ProjectDir = C:\Users\samue\OneDrive\Área de Trabalho\Sandalias\Sandalias\Sandalias\
+build_property.ProjectDir = E:\Dev\Sandalias\SandaliasAspNet\Sandalias\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\samue\OneDrive\Área de Trabalho\Sandalias\Sandalias\Sandalias
+build_property.MSBuildProjectDirectory = E:\Dev\Sandalias\SandaliasAspNet\Sandalias
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/Home/DescricaoPraias.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXNjcmljYW9QcmFpYXMuY3NodG1s
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Animais/Caravela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xDYXJhdmVsYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/Home/Index.cshtml]
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Animais/Cavalo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xDYXZhbG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Animais/Gaivota.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xHYWl2b3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Animais/Tartaruga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFpc1xUYXJ0YXJ1Z2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Home/Animais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbmltYWlzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/Home/Privacy.cshtml]
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Home/Praias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcmFpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/Shared/Error.cshtml]
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Home/Trilhas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmlsaGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Praias/Couves.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhaWFzXENvdXZlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Praias/Enseada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhaWFzXEVuc2VhZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Praias/Juliao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhaWFzXEp1bGlhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Praias/Maresias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhaWFzXE1hcmVzaWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/_ViewImports.cshtml]
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Trilhas/Bananas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbGhhc1xCYW5hbmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Trilhas/Bonete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbGhhc1xCb25ldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Trilhas/Fortaleza.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbGhhc1xGb3J0YWxlemEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Trilhas/SetePraias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJpbGhhc1xTZXRlUHJhaWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/_ViewStart.cshtml]
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/samue/OneDrive/Área de Trabalho/Sandalias/Sandalias/Sandalias/Views/Shared/_Layout.cshtml]
+[E:/Dev/Sandalias/SandaliasAspNet/Sandalias/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ge6rs5b17r

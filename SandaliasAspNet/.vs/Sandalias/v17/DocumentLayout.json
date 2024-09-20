@@ -1,22 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\",
+  "WorkspaceRootPath": "E:\\Dev\\Sandalias\\SandaliasAspNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|c:\\users\\samue\\onedrive\\\u00E1rea de trabalho\\sandalias\\sandalias\\sandalias\\wwwroot\\css\\descricao.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\wwwroot\\css\\descricao.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\views\\trilhas\\fortaleza.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\views\\trilhas\\fortaleza.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|c:\\users\\samue\\onedrive\\\u00E1rea de trabalho\\sandalias\\sandalias\\sandalias\\wwwroot\\js\\descricao.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\wwwroot\\js\\descricao.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\models\\animais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\models\\animais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|c:\\users\\samue\\onedrive\\\u00E1rea de trabalho\\sandalias\\sandalias\\sandalias\\views\\home\\descricaopraias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\views\\home\\descricaopraias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\controllers\\animaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\controllers\\animaiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|c:\\users\\samue\\onedrive\\\u00E1rea de trabalho\\sandalias\\sandalias\\sandalias\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\controllers\\praiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\controllers\\praiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\controllers\\trilhascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\controllers\\trilhascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\models\\praias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\models\\praias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\models\\trilhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\models\\trilhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\views\\trilhas\\bananas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\views\\trilhas\\bananas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\wwwroot\\css\\trilha.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\wwwroot\\css\\trilha.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\views\\praias\\couves.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\views\\praias\\couves.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|e:\\dev\\sandalias\\sandaliasaspnet\\sandalias\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D45AD3A0-1E08-428C-B111-F196384F5044}|Sandalias\\Sandalias.csproj|solutionrelative:sandalias\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +54,147 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DescricaoPraias.cshtml",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Views\\Home\\DescricaoPraias.cshtml",
-              "RelativeDocumentMoniker": "Sandalias\\Views\\Home\\DescricaoPraias.cshtml",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Views\\Home\\DescricaoPraias.cshtml",
-              "RelativeToolTip": "Sandalias\\Views\\Home\\DescricaoPraias.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAwDwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T00:39:46.682Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Descricao.js",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\wwwroot\\js\\Descricao.js",
-              "RelativeDocumentMoniker": "Sandalias\\wwwroot\\js\\Descricao.js",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\wwwroot\\js\\Descricao.js",
-              "RelativeToolTip": "Sandalias\\wwwroot\\js\\Descricao.js",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-15T09:27:34.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Descricao.css",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\wwwroot\\css\\Descricao.css",
-              "RelativeDocumentMoniker": "Sandalias\\wwwroot\\css\\Descricao.css",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\wwwroot\\css\\Descricao.css",
-              "RelativeToolTip": "Sandalias\\wwwroot\\css\\Descricao.css",
-              "ViewState": "AQIAALkAAAAAAAAAAAAswNUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-15T08:37:17.917Z",
+              "Title": "AnimaisController.cs",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Controllers\\AnimaisController.cs",
+              "RelativeDocumentMoniker": "Sandalias\\Controllers\\AnimaisController.cs",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Controllers\\AnimaisController.cs",
+              "RelativeToolTip": "Sandalias\\Controllers\\AnimaisController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T01:25:56.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Sandalias\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\samue\\OneDrive\\\u00C1rea de Trabalho\\Sandalias\\Sandalias\\Sandalias\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Sandalias\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAAAMAAAA",
+              "Title": "PraiasController.cs",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Controllers\\PraiasController.cs",
+              "RelativeDocumentMoniker": "Sandalias\\Controllers\\PraiasController.cs",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Controllers\\PraiasController.cs",
+              "RelativeToolTip": "Sandalias\\Controllers\\PraiasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T19:32:54.651Z"
+              "WhenOpened": "2024-09-20T01:25:37.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Praias.cs",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Models\\Praias.cs",
+              "RelativeDocumentMoniker": "Sandalias\\Models\\Praias.cs",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Models\\Praias.cs",
+              "RelativeToolTip": "Sandalias\\Models\\Praias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T01:25:14.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animais.cs",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Models\\Animais.cs",
+              "RelativeDocumentMoniker": "Sandalias\\Models\\Animais.cs",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Models\\Animais.cs",
+              "RelativeToolTip": "Sandalias\\Models\\Animais.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T01:25:07.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bananas.cshtml",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Trilhas\\Bananas.cshtml",
+              "RelativeDocumentMoniker": "Sandalias\\Views\\Trilhas\\Bananas.cshtml",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Trilhas\\Bananas.cshtml",
+              "RelativeToolTip": "Sandalias\\Views\\Trilhas\\Bananas.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T00:58:49.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Trilha.css",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\wwwroot\\css\\Trilha.css",
+              "RelativeDocumentMoniker": "Sandalias\\wwwroot\\css\\Trilha.css",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\wwwroot\\css\\Trilha.css",
+              "RelativeToolTip": "Sandalias\\wwwroot\\css\\Trilha.css",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAHEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-20T00:47:18.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Couves.cshtml",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Praias\\Couves.cshtml",
+              "RelativeDocumentMoniker": "Sandalias\\Views\\Praias\\Couves.cshtml",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Praias\\Couves.cshtml",
+              "RelativeToolTip": "Sandalias\\Views\\Praias\\Couves.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T00:27:07.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fortaleza.cshtml",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Trilhas\\Fortaleza.cshtml",
+              "RelativeDocumentMoniker": "Sandalias\\Views\\Trilhas\\Fortaleza.cshtml",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Trilhas\\Fortaleza.cshtml",
+              "RelativeToolTip": "Sandalias\\Views\\Trilhas\\Fortaleza.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T00:26:37.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Trilhas.cs",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Models\\Trilhas.cs",
+              "RelativeDocumentMoniker": "Sandalias\\Models\\Trilhas.cs",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Models\\Trilhas.cs",
+              "RelativeToolTip": "Sandalias\\Models\\Trilhas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T00:03:06.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrilhasController.cs",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Controllers\\TrilhasController.cs",
+              "RelativeDocumentMoniker": "Sandalias\\Controllers\\TrilhasController.cs",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Controllers\\TrilhasController.cs",
+              "RelativeToolTip": "Sandalias\\Controllers\\TrilhasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T23:59:51.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sandalias\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\Dev\\Sandalias\\SandaliasAspNet\\Sandalias\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Sandalias\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAHsAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-19T19:32:36.607Z"
             }
           ]
         }
