@@ -3,6 +3,9 @@ import 'package:appsandalias/animals.dart';
 import 'package:appsandalias/praias.dart';
 import 'package:appsandalias/trilhas.dart';
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -44,6 +47,15 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
+  void abrirUrl() async {
+    const url = 'https://www.instagram.com/projetosandalias.2ds/';
+    if (await canLaunchUrl(Uri.parse(url))) {
+      await launchUrl(Uri.parse(url));
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -59,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
             );
-          },
+},
         ),
       ),
       drawer: Drawer(
@@ -87,17 +99,27 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const TrilhasPag()), );
               },
             ),
+
             ListTile(
               leading: const Icon(Icons.beach_access_outlined),
               title: const Text('Praias'),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => const PraiasPag()), );
-              },
+              }
+            ),
+             
+             const Gap (400),
+
+            ListTile(
+              leading: const Icon(Icons.airplane_ticket),
+              title: const Text('Instagram do APP'),
+              onTap: () {abrirUrl();}
             ),
              
           ],
         ),
       ),
+      
       body: GridView.count(
         crossAxisCount: 3,
         children: <Widget>[
@@ -116,6 +138,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
-
-
