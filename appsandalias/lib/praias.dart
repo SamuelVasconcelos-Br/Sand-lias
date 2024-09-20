@@ -6,6 +6,8 @@ import 'package:appsandalias/trilhas.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+import 'package:url_launcher/url_launcher.dart';
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -50,6 +52,15 @@ void _navigateToPraiaPage(BuildContext context, String praiaName) {
         context,
         MaterialPageRoute(builder: (context) => const EnseadaPage()),
       );
+    }
+  }
+
+  void abrirUrl() async {
+    const url = 'https://www.instagram.com/projetosandalias.2ds/';
+    if (await canLaunchUrl(Uri.parse(url))) {
+      await launchUrl(Uri.parse(url));
+    } else {
+      throw 'Could not launch $url';
     }
   }
 
@@ -103,6 +114,14 @@ void _navigateToPraiaPage(BuildContext context, String praiaName) {
                  Navigator.push(context, MaterialPageRoute(builder: (context) => const MyHomePage()), );
               },
             ),
+
+            const Gap (400),
+
+            ListTile(
+              leading: const Icon(Icons.airplane_ticket),
+              title: const Text('Instagram do APP'),
+              onTap: () {abrirUrl();}
+            )
           ],
         ),
       ),
