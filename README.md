@@ -24,6 +24,6 @@ O litoral também possui perigos humanos como sequestro, assasinato e assaltos. 
  <br>
  <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki/Documenta%C3%A7%C3%A3o-do-Desenvolvimento">Documentação do Desenvolvimento</a></li>
  <br>
- <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki/V%C3%ADdeos-do-aplicativo-e-site-funcionando:"</a></li>
+ <li><a href="https://github.com/SamuelVasconcelos-Br/Sandalias/wiki/V%C3%ADdeos-do-aplicativo-e-site-funcionando:"</a> Vídeos das aplicações e códigos (novo)</li>
 </ul>
 
