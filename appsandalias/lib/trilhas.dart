@@ -1,6 +1,7 @@
 import 'package:appsandalias/TrilhaCard.dart';
 import 'package:appsandalias/main.dart';
 import 'package:appsandalias/praias.dart';
+import 'package:appsandalias/trilhaespec2.dart';
 import 'package:appsandalias/trilhasespec.dart';
 import 'package:flutter/material.dart';
 
@@ -39,6 +40,15 @@ void _navigateToTrilhaPage(BuildContext context, String trilhaName) {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => const TrilhasetePage()),
+      );
+    }
+  }
+
+void _navigateToTrilha2Page(BuildContext context, String trilhaName) {
+    if (trilhaName == 'Trilha do saco das bananas') {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => const TrilhabananaPage()),
       );
     }
   }
@@ -101,9 +111,9 @@ void _navigateToTrilhaPage(BuildContext context, String trilhaName) {
         crossAxisCount: 1,
         children:  <Widget>[
           TrilhaCard(imagePath: 'assets/images/trilha7.jpg', trilhaName: 'Trilha dos 7 praias',  descricao: '', onTap: () => _navigateToTrilhaPage(context, 'Trilha dos 7 praias')),
-          const TrilhaCard(imagePath: 'assets/images/trilhabananas.jpg', trilhaName: 'Praia da Enseada', descricao: '',),
-          const TrilhaCard(imagePath: 'assets/images/trilhafortaleza.jpg', trilhaName: 'Praia das Couves', descricao: '',),
-          const TrilhaCard(imagePath: 'assets/images/trilhabonete.jpg', trilhaName: 'Praia do Julião', descricao: '',),
+          TrilhaCard(imagePath: 'assets/images/trilhabananas.jpg', trilhaName: 'Trilha do saco das bananas', descricao: '', onTap: () =>  _navigateToTrilha2Page (context, 'Trilha do saco das bananas')),
+          const TrilhaCard(imagePath: 'assets/images/trilhafortaleza.jpg', trilhaName: 'Trilha da fortaleza', descricao: '',),
+          const TrilhaCard(imagePath: 'assets/images/trilhabonete.jpg', trilhaName: 'Trilha do bonete', descricao: '',),
         ],
       ),
     );
@@ -112,3 +122,4 @@ void _navigateToTrilhaPage(BuildContext context, String trilhaName) {
 }
 
 }
+
